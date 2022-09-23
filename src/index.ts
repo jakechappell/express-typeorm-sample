@@ -5,7 +5,6 @@ import { AppDataSource } from "./data-source"
 import router from "./router/Joke"
 
 AppDataSource.initialize().then(async () => {
-
     // create express app
     const app = express()
     app.use(express.json())
